@@ -11,14 +11,21 @@ body {
 
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    align-items: stretch;
 
     min-height: 100vh;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 999;
+}
+
 h1 {
     font-size: 2.5em;
+    margin-top: 5vh;
     margin-bottom: 1rem;
 }
 
@@ -27,13 +34,16 @@ ul {
 }
 
 a {
+    color: currentColor;
+}
+
+nav a {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     min-width: 40vw;
 
-    color: currentColor;
     text-align: center;
     text-decoration: none;
     font-size: 1.25rem;
@@ -51,6 +61,20 @@ a:hover {
 
 
 .spacer {
-    max-height: 20vh;
+    max-height: 30vh;
     flex-grow: 999;
+}
+
+footer {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin-top: 6rem;
+    padding: 1rem;
+
+    background-color: #4C4B5C;
 }
