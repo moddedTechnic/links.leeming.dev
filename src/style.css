@@ -42,7 +42,7 @@ nav a {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    min-width: 40vw;
+    width: clamp(16rem, 40vw, 24rem);
 
     text-align: center;
     text-decoration: none;
