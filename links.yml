@@ -1,0 +1,15 @@
+- url: leeming.dev
+- title: GitHub / moddedTechnic
+  url: github.com/moddedTechnic
+  icon: github
+- title: LinkedIn / jonathan-leeming
+  url: linkedin.com/in/jonathan-leeming
+  icon: linkedin
+- section: Projects
+  links:
+    - title: Building Semi-Digital Twins as a tool for Cyber-Security Analysis 
+      url: github.com/j-leeming-uni/300.typ
+      icon: traffic-light
+    - title: Embryon
+      url: github.com/moddedTechnic/embryon
+      icon: circuitry
