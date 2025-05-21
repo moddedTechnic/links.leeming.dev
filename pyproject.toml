@@ -5,7 +5,7 @@ description = "Link page."
 authors = ["Jonathan Leeming <jonathan@leeming.dev>"]
 license = "MIT"
 readme = "README.md"
-packages = [{include = "links"}]
+packages = []
 
 [tool.poetry.dependencies]
 python = ">=3.11"
